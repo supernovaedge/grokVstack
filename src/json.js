@@ -29,5 +29,15 @@ export const json = {
         },
       ],
     },
+    {
+      name: "page2",
+      elements: [
+        {
+          type: "rating",
+          name: "question1",
+          title: "sample",
+        },
+      ],
+    },
   ],
 };
