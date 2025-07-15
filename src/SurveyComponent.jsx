@@ -8,16 +8,18 @@ import { json } from "./json";
 function SurveyComponent() {
   const survey = new Model(json);
   survey.onComplete.add((sender) => {
-    const formData = new FormData();
-    formData.append("form-name", "survey");
-    // Add each survey answer as a separate field
-    Object.entries(sender.data).forEach(([key, value]) => {
-      formData.append(key, value);
-    });
-    fetch("/", {
-      method: "POST",
-      body: formData,
-    });
+    if (sender.data.agreeToParticipate === "yes") {
+      const formData = new FormData();
+      formData.append("form-name", "survey");
+      // Add each survey answer as a separate field
+      Object.entries(sender.data).forEach(([key, value]) => {
+        formData.append(key, value);
+      });
+      fetch("/", {
+        method: "POST",
+        body: formData,
+      });
+    }
     console.log(JSON.stringify(sender.data, null, 3));
   });
   return <Survey model={survey} />;
