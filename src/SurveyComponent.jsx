@@ -10,7 +10,10 @@ function SurveyComponent() {
   survey.onComplete.add((sender) => {
     const formData = new FormData();
     formData.append("form-name", "survey");
-    formData.append("responses", JSON.stringify(sender.data));
+    // Add each survey answer as a separate field
+    Object.entries(sender.data).forEach(([key, value]) => {
+      formData.append(key, value);
+    });
     fetch("/", {
       method: "POST",
       body: formData,
