@@ -7,7 +7,14 @@ import { json } from "./json";
 
 function SurveyComponent() {
   const survey = new Model(json);
-  survey.onComplete.add((sender, options) => {
+  survey.onComplete.add((sender) => {
+    const formData = new FormData();
+    formData.append("form-name", "survey");
+    formData.append("responses", JSON.stringify(sender.data));
+    fetch("/", {
+      method: "POST",
+      body: formData,
+    });
     console.log(JSON.stringify(sender.data, null, 3));
   });
   return <Survey model={survey} />;
