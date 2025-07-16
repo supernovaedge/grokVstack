@@ -4,7 +4,7 @@ export const json = {
   description:
     "This survey is part of a research study comparing developer preferences between AI coding assistants (like Grok) and community Q&A platforms (like Stack Overflow). All responses are anonymous and used solely for academic research.",
   completedHtml:
-    "<h3>Thank you for your participation!</h3><p>Your responses have been recorded anonymously. We appreciate your time and contribution to this research.</p>",
+    "<h3>Thank you for your time!</h3><p>We appreciate you considering our survey. If you chose not to participate, your responses have not been recorded.</p>",
   pages: [
     {
       name: "page_agreement",
@@ -15,6 +15,7 @@ export const json = {
           type: "radiogroup",
           name: "agreeToParticipate",
           title: "Do you consent to participate in this survey?",
+          description: 'Select "Yes, I consent" to move to the questions.',
           isRequired: true,
           choices: [
             {
@@ -238,6 +239,41 @@ export const json = {
             },
           ],
         },
+        {
+          type: "checkbox",
+          name: "question1",
+          visibleIf: "{grokUsage} = 'no' or {grokUsage} = 'never'",
+          title:
+            "If you have not used Grok, what are the reasons? (Select all that apply)",
+          isRequired: true,
+          choices: [
+            {
+              value: "unaware",
+              text: "I was not aware of Grok",
+            },
+            {
+              value: "access",
+              text: "I don’t have access to Grok",
+            },
+            {
+              value: "trust",
+              text: "I don’t trust AI coding assistants",
+            },
+            {
+              value: "cost",
+              text: "Cost or subscription concerns",
+            },
+            {
+              value: "preference",
+              text: "I prefer other tools (e.g., Stack Overflow, Copilot)",
+            },
+            {
+              value: "other",
+              text: "Other (please specify)",
+            },
+          ],
+          showOtherItem: true,
+        },
       ],
     },
     {
@@ -374,90 +410,13 @@ export const json = {
     },
     {
       name: "page_comparison",
-      visibleIf: "{agreeToParticipate} = 'yes' and {grokUsage} = 'yes'",
-      title: "Comparing Stack Overflow and Grok Responses",
-      description:
-        "Please evaluate sample responses from Stack Overflow and Grok for the same coding question (to be provided).",
+      visibleIf: "{agreeToParticipate} = 'yes'",
+      title: "Evaluating Coding Responses",
       elements: [
         {
-          type: "radiogroup",
-          name: "accuracyComparison",
-          title:
-            "Which tool’s response is more accurate for the provided coding question?",
-          isRequired: true,
-          choices: [
-            {
-              value: "grok",
-              text: "Grok",
-            },
-            {
-              value: "stackoverflow",
-              text: "Stack Overflow",
-            },
-            {
-              value: "both",
-              text: "Both equally",
-            },
-            {
-              value: "neither",
-              text: "Neither",
-            },
-          ],
-        },
-        {
-          type: "radiogroup",
-          name: "clarityComparison",
-          title: "Which tool’s response is clearer and easier to understand?",
-          isRequired: true,
-          choices: [
-            {
-              value: "grok",
-              text: "Grok",
-            },
-            {
-              value: "stackoverflow",
-              text: "Stack Overflow",
-            },
-            {
-              value: "both",
-              text: "Both equally",
-            },
-            {
-              value: "neither",
-              text: "Neither",
-            },
-          ],
-        },
-        {
-          type: "radiogroup",
-          name: "relevanceComparison",
-          title:
-            "Which tool’s response is more relevant to the coding question?",
-          isRequired: true,
-          choices: [
-            {
-              value: "grok",
-              text: "Grok",
-            },
-            {
-              value: "stackoverflow",
-              text: "Stack Overflow",
-            },
-            {
-              value: "both",
-              text: "Both equally",
-            },
-            {
-              value: "neither",
-              text: "Neither",
-            },
-          ],
-        },
-        {
-          type: "comment",
-          name: "openEndedFeedback",
-          title:
-            "What factors influence your preference for Grok or Stack Overflow? (e.g., speed, trust, ease of use, specific use cases)",
+          type: "html",
+          name: "question6",
+          html: '<div>  \n  <section style="margin-bottom: 1.5rem;">\n    <h2 style="font-size: 1.25rem; font-weight: 600; color: #1f2937; margin-bottom: 0.75rem;">What You’ll Be Doing</h2>\n    <p style="color: #4b5563; line-height: 1.5;">\n      In the next section, you will evaluate a sample programming question styled like those on Stack Overflow. The question will have two responses, labeled <strong>Answer A</strong> and <strong>Answer B</strong>. Your task is to compare these responses based on specific criteria to help us understand your preferences for coding assistance tools.\n    </p>\n  </section>\n\n  <section style="margin-bottom: 1.5rem;">\n    <h2 style="font-size: 1.25rem; font-weight: 600; color: #1f2937; margin-bottom: 0.75rem;">How to Approach the Questions</h2>\n    <ul style="list-style: disc; padding-left: 1.5rem; color: #4b5563; line-height: 1.5; margin-bottom: 0.5rem;">\n      <li><strong>Read Carefully</strong>: Review the sample question and both Answer A and Answer B thoroughly to understand the context and content.</li>\n      <li><strong>Evaluate Using the Likert Scale</strong>: Rate each answer on a scale from 1 (Strongly Disagree) to 5 (Strongly Agree) for criteria such as:\n        <ul style="list-style: circle; padding-left: 1.5rem; margin-top: 0.25rem;">\n          <li><strong>Accuracy</strong>: Is the response correct and technically sound?</li>\n          <li><strong>Clarity</strong>: Is the response easy to understand and well-explained?</li>\n          <li><strong>Relevance</strong>: Does the response directly address the question asked?</li>\n        </ul>\n      </li>\n      <li><strong>Provide Honest Feedback</strong>: Rate each answer based on your experience and perception, considering how useful it would be in a real coding scenario.</li>\n    </ul>\n  </section>\n\n  <section style="margin-bottom: 1.5rem;">\n    <h2 style="font-size: 1.25rem; font-weight: 600; color: #1f2937; margin-bottom: 0.75rem;">Example of a Likert Scale Question</h2>\n    <p style="color: #4b5563; line-height: 1.5; margin-bottom: 0.5rem;">\n      For the statement “Answer A is accurate,” you will select one option:\n    </p>\n    <div style="background-color: #f9fafb; padding: 1rem; border-radius: 0.375rem;">\n      <p style="color: #4b5563;">\n        <strong>1</strong>: Strongly Disagree | <strong>2</strong>: Disagree | <strong>3</strong>: Neutral | <strong>4</strong>: Agree | <strong>5</strong>: Strongly Agree\n      </p>\n    </div>\n  </section>\n\n  <section style="margin-bottom: 1.5rem;">\n    <h2 style="font-size: 1.25rem; font-weight: 600; color: #1f2937; margin-bottom: 0.75rem;">Important Note</h2>\n    <p style="color: #4b5563; line-height: 1.5;">\n      To ensure an unbiased evaluation, the source of each answer (whether from an AI tool like Grok or a community platform like Stack Overflow) will not be disclosed. Please focus on the content of the responses when making your judgments.\n    </p>\n  </section>\n</div>',
         },
       ],
     },
