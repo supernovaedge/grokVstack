@@ -97,6 +97,7 @@ export const json = {
           type: "radiogroup",
           name: "workEnvironment",
           title: "What is your primary work environment?",
+          isRequired: true,
           choices: [
             {
               value: "solo",
@@ -418,11 +419,12 @@ export const json = {
     },
     {
       name: "page1",
+      visibleIf: "{agreeToParticipate} = 'yes'",
       elements: [
         {
           type: "html",
           name: "question2",
-          html: '<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>How do I reverse a string in Python? - Stack Overflow</title>\n    <script src="https://cdn.tailwindcss.com"></script>\n    <link rel="preconnect" href="https://fonts.googleapis.com">\n    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">\n    <style>\n        body {\n            font-family: \'Inter\', sans-serif;\n            background-color: #F1F2F3;\n        }\n.tag {\n      display: inline-block;\n      background-color: #e1ecf4;\n      color: #39739d;\n      padding: 4px 8px;\n      margin: 2px;\n      font-size: 13px;\n      border: 1px solid #39739d;\n      border-radius: 3px;\n      font-family: Arial, sans-serif;\n      text-decoration: none;\n    }\n\n    .tag:hover {\n      background-color: #d0e3f1;\n      cursor: pointer;\n    }\n        .code-block {\n            background-color: #F8F9F9;\n            border: 1px solid #E3E6E8;\n            border-radius: 6px;\n            padding: 12px;\n            font-family: \'Monaco\', \'Menlo\', \'Ubuntu Mono\', \'Consolas\', \'source-code-pro\', \'Courier New\', monospace;\n            font-size: 14px;\n            line-height: 1.4;\n            white-space: pre-wrap;\n            word-wrap: break-word;\n        }\n        /* Base vote-control styling */\n        .vote-control {\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            color: #BABFC4;\n            width: 48px;\n            flex-shrink: 0;\n        }\n        .vote-arrow {\n            cursor: pointer;\n            padding: 4px;\n        }\n        .vote-arrow:hover {\n            color: #83888D;\n        }\n        .vote-count {\n            font-size: 1.25rem;\n            color: #6A737C;\n            margin: 4px 0;\n        }\n\n        /* --- STYLES FOR LAYOUT --- */\n\n        .question-section, .answer-section {\n            display: flex;\n            align-items: flex-start;\n            gap: 20px;\n            margin-bottom: 24px;\n        }\n        \n        .answer-section {\n            background-color: white;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 2px 4px rgba(0,0,0,0.05);\n            margin-bottom: 32px;\n        }\n        \n        /* The following override rules have been removed as they forced a horizontal layout.\n           The base .vote-control class now correctly applies to all sections,\n           ensuring a consistent vertical alignment for the scores. */\n        \n        .question-section > div.w-full,\n        .answer-section > div.w-full {\n            flex-grow: 1;\n        }\n    </style>\n</head>\n<body class="bg-gray-100">\n\n    <div class="container mx-auto p-4 md:p-6 max-w-4xl">\n\n        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center">\n            <h3 class="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4">How do I reverse a string in Python?</h3>\n        </div>\n\n        <div class="border-b border-gray-300 pb-2 mb-6 text-sm text-gray-500">\n            <span>Asked <strong>12 years, 3 months ago</strong></span>\n            <span class="mx-2">|</span>\n            <span>Modified <strong>2 days ago</strong></span>\n            <span class="mx-2">|</span>\n            <span>Viewed <strong>8.7m times</strong></span>\n        </div>\n\n        <div class="question-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">3824</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <p class="text-gray-800 text-base leading-relaxed">\n                    There is no built-in <code>reverse</code> method for Python\'s <code>str</code> object. How can I reverse a string?\n                </p><br>\n                <div class="mt-4 flex flex-wrap gap-2">\n                      <span class="tag">python</span>\n  <span class="tag">string</span>\n                </div>\n            </div>\n        </div>\n\n        <hr class="my-8 border-gray-300">\n\n        <div class="flex justify-between items-center mb-6">\n            <h4 class="text-xl sm:text-2xl font-semibold text-gray-800">2 Answers</h4>\n        </div>\n\n        <div class="answer-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">2456</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <h4 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900">Answer A</h4>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    Using slicing:\n                </p>\n                <pre class="code-block"><code>>>> \'hello world\'[::-1]\n\'dlrow olleh\'</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    Slice notation takes the form <code>[start:stop:step]</code>. In this case, we omit the <code>start</code> and <code>stop</code> positions since we want the whole string. We also use <code>step = -1</code>, which means, "repeatedly step from right to left by 1 character".\n                </p>\n                <div class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md">\n                    <p class="text-sm text-gray-600">Answered by <strong>Answer A</strong></p>\n                </div>\n            </div>\n        </div>\n\n        <div class="answer-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">7893</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <h4 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900">Answer B</h4>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    Here are the most common ways to reverse a string in Python, since there\'s no built-in reverse method for strings:\n                </p>\n                <p class="text-base font-bold mt-6 mb-2 text-gray-800"><b>Using String Slicing (Most Concise):</b></p>\n                <pre class="code-block"><code>text = "hello"\nreversed_text = text[::-1]  # Output: "olleh"</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    The slice <code>[::-1]</code> uses the format <code>[start:stop:step]</code>, where a step of -1 reverses the string.\n                </p>\n                <p class="text-base font-bold mt-6 mb-2 text-gray-800"><b>Using a Loop (Explicit Approach):</b></p>\n                <pre class="code-block"><code>text = "hello"\nreversed_text = ""\nfor char in text:\n    reversed_text = char + reversed_text\n# Output: "olleh"</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    Iterates through each character and builds a new string by prepending each character.\n                </p>\n                <p class="text-base font-bold mt-6 mb-2 text-gray-800"><b>Using <code>join</code> and <code>reversed</code> (Readable):</b></p>\n                <pre class="code-block"><code>text = "hello"\nreversed_text = "".join(reversed(text))  # Output: "olleh"</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    <code>reversed(text)</code> returns an iterator of characters in reverse order, and <code>join</code> combines them into a string.\n                </p>\n                <p class="text-gray-800 text-base leading-relaxed mt-6">\n                    The slicing method (<code>text[::-1]</code>) is the most Pythonic and efficient for most cases. Use the loop method if you need to perform additional operations during reversal or for educational purposes. The <code>join</code> and <code>reversed</code> approach is clear and readable but slightly less performant.\n                </p>\n                <div class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md">\n                    <p class="text-sm text-gray-600">Answered by <strong>Answer B</strong></p>\n                </div>\n            </div>\n        </div>\n\n    </div>\n\n</body>\n</html>',
+          html: '<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>How do I reverse a string in Python? - Stack Overflow</title>\n    <script src="https://cdn.tailwindcss.com"></script>\n    <link rel="preconnect" href="https://fonts.googleapis.com">\n    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">\n    <style>\n        body {\n            font-family: \'Inter\', sans-serif;\n            background-color: #F1F2F3;\n        }\n.tag {\n      display: inline-block;\n      background-color: #e1ecf4;\n      color: #39739d;\n      padding: 4px 8px;\n      margin: 2px;\n      font-size: 13px;\n      border: 1px solid #39739d;\n      border-radius: 3px;\n      font-family: Arial, sans-serif;\n      text-decoration: none;\n    }\n\n    .tag:hover {\n      background-color: #d0e3f1;\n      cursor: pointer;\n    }\n        .code-block {\n            background-color: #F8F9F9;\n            border: 1px solid #E3E6E8;\n            border-radius: 6px;\n            padding: 12px;\n            font-family: \'Courier New\', Courier, monospace;\n            white-space: pre-wrap;\n            word-wrap: break-word;\n        }\n        /* Base vote-control styling */\n        .vote-control {\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            color: #BABFC4;\n            width: 48px;\n            flex-shrink: 0;\n        }\n        .vote-arrow {\n            cursor: pointer;\n            padding: 4px;\n        }\n        .vote-arrow:hover {\n            color: #83888D;\n        }\n        .vote-count {\n            font-size: 1.25rem;\n            color: #6A737C;\n            margin: 4px 0;\n        }\n\n        /* --- STYLES FOR LAYOUT --- */\n\n        .question-section, .answer-section {\n            display: flex;\n            align-items: flex-start;\n            gap: 20px;\n            margin-bottom: 24px;\n        }\n        \n        .answer-section {\n            background-color: white;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 2px 4px rgba(0,0,0,0.05);\n            margin-bottom: 32px;\n        }\n        \n        /* The following override rules have been removed as they forced a horizontal layout.\n           The base .vote-control class now correctly applies to all sections,\n           ensuring a consistent vertical alignment for the scores. */\n        \n        .question-section > div.w-full,\n        .answer-section > div.w-full {\n            flex-grow: 1;\n        }\n    </style>\n</head>\n<body class="bg-gray-100">\n\n    <div class="container mx-auto p-4 md:p-6 max-w-4xl">\n\n        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center">\n            <h3 class="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4">How do I reverse a string in Python?</h3>\n        </div>\n\n        <div class="border-b border-gray-300 pb-2 mb-6 text-sm text-gray-500">\n            <span>Asked <strong>12 years, 3 months ago</strong></span>\n            <span class="mx-2">|</span>\n            <span>Modified <strong>2 days ago</strong></span>\n            <span class="mx-2">|</span>\n            <span>Viewed <strong>8.7m times</strong></span>\n        </div>\n\n        <div class="question-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">3824</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <p class="text-gray-800 text-base leading-relaxed">\n                    There is no built-in <code>reverse</code> method for Python\'s <code>str</code> object. How can I reverse a string?\n                </p><br>\n                <div class="mt-4 flex flex-wrap gap-2">\n                      <span class="tag">python</span>\n  <span class="tag">string</span>\n                </div>\n            </div>\n        </div>\n\n        <hr class="my-8 border-gray-300">\n\n        <div class="flex justify-between items-center mb-6">\n            <h4 class="text-xl sm:text-2xl font-semibold text-gray-800">2 Answers</h4>\n        </div>\n\n        <div class="answer-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">2456</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <h4 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900">Answer A</h4>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    Using slicing:\n                </p>\n                <pre class="code-block"><code>>>> \'hello world\'[::-1]\n\'dlrow olleh\'</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    Slice notation takes the form <code>[start:stop:step]</code>. In this case, we omit the <code>start</code> and <code>stop</code> positions since we want the whole string. We also use <code>step = -1</code>, which means, "repeatedly step from right to left by 1 character".\n                </p>\n                <div class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md">\n                    <p class="text-sm text-gray-600">Answered by <strong>Answer A</strong></p>\n                </div>\n            </div>\n        </div>\n\n        <div class="answer-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">7893</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <h4 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900">Answer B</h4>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    Here are the most common ways to reverse a string in Python, since there\'s no built-in reverse method for strings:\n                </p>\n                <p class="text-base font-bold mt-6 mb-2 text-gray-800"><b>Using String Slicing (Most Concise):</b></p>\n                <pre class="code-block"><code>text = "hello"\nreversed_text = text[::-1]  # Output: "olleh"</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    The slice <code>[::-1]</code> uses the format <code>[start:stop:step]</code>, where a step of -1 reverses the string.\n                </p>\n                <p class="text-base font-bold mt-6 mb-2 text-gray-800"><b>Using a Loop (Explicit Approach):</b></p>\n                <pre class="code-block"><code>text = "hello"\nreversed_text = ""\nfor char in text:\n    reversed_text = char + reversed_text\n# Output: "olleh"</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    Iterates through each character and builds a new string by prepending each character.\n                </p>\n                <p class="text-base font-bold mt-6 mb-2 text-gray-800"><b>Using <code>join</code> and <code>reversed</code> (Readable):</b></p>\n                <pre class="code-block"><code>text = "hello"\nreversed_text = "".join(reversed(text))  # Output: "olleh"</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    <code>reversed(text)</code> returns an iterator of characters in reverse order, and <code>join</code> combines them into a string.\n                </p>\n                <p class="text-gray-800 text-base leading-relaxed mt-6">\n                    The slicing method (<code>text[::-1]</code>) is the most Pythonic and efficient for most cases. Use the loop method if you need to perform additional operations during reversal or for educational purposes. The <code>join</code> and <code>reversed</code> approach is clear and readable but slightly less performant.\n                </p>\n                <div class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md">\n                    <p class="text-sm text-gray-600">Answered by <strong>Answer B</strong></p>\n                </div>\n            </div>\n        </div>\n\n    </div>\n\n</body>\n</html>',
         },
         {
           type: "radiogroup",
@@ -604,6 +606,229 @@ export const json = {
           type: "checkbox",
           name: "preference_reason",
           visibleIf: "{question3} notempty",
+          title:
+            "Why did you choose your preferred answer? (Select all that apply)",
+          isRequired: true,
+          choices: [
+            {
+              value: "brevity",
+              text: "It was shorter and more concise",
+            },
+            {
+              value: "completeness",
+              text: "It provided more comprehensive information",
+            },
+            {
+              value: "clarity",
+              text: "It was clearer and easier to understand",
+            },
+            {
+              value: "accuracy",
+              text: "It seemed more accurate or reliable",
+            },
+            {
+              value: "multiple_methods",
+              text: "It offered multiple solutions",
+            },
+            {
+              value: "practicality",
+              text: "It was more practical for my needs",
+            },
+          ],
+          showOtherItem: true,
+          otherText: "Other (please specify)",
+        },
+      ],
+    },
+    {
+      name: "page2",
+      visibleIf: "{agreeToParticipate} = 'yes'",
+      elements: [
+        {
+          type: "html",
+          name: "question4",
+          html: '<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>How to implement a singleton in C#? - Stack Overflow</title>\n    <script src="https://cdn.tailwindcss.com"></script>\n    <link rel="preconnect" href="https://fonts.googleapis.com">\n    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">\n    <style>\n        body {\n            font-family: \'Inter\', sans-serif;\n            background-color: #F1F2F3;\n        }\n        .tag {\n            display: inline-block;\n            background-color: #e1ecf4;\n            color: #39739d;\n            padding: 4px 8px;\n            margin: 2px;\n            font-size: 13px;\n            border: 1px solid #39739d;\n            border-radius: 3px;\n            font-family: Arial, sans-serif;\n            text-decoration: none;\n        }\n        .tag:hover {\n            background-color: #d0e3f1;\n            cursor: pointer;\n        }\n        .code-block {\n            background-color: #F8F9F9;\n            border: 1px solid #E3E6E8;\n            border-radius: 6px;\n            padding: 12px;\n            font-family: \'Courier New\', Courier, monospace;\n            white-space: pre-wrap;\n            word-wrap: break-word;\n        }\n        .vote-control {\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            color: #BABFC4;\n            width: 48px;\n            flex-shrink: 0;\n        }\n        .vote-arrow {\n            cursor: pointer;\n            padding: 4px;\n        }\n        .vote-arrow:hover {\n            color: #83888D;\n        }\n        .vote-count {\n            font-size: 1.25rem;\n            color: #6A737C;\n            margin: 4px 0;\n        }\n        .question-section, .answer-section {\n            display: flex;\n            align-items: flex-start;\n            gap: 20px;\n            margin-bottom: 24px;\n        }\n        .answer-section {\n            background-color: white;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 2px 4px rgba(0,0,0,0.05);\n            margin-bottom: 32px;\n        }\n        .question-section > div.w-full,\n        .answer-section > div.w-full {\n            flex-grow: 1;\n        }\n    </style>\n</head>\n<body class="bg-gray-100">\n\n    <div class="container mx-auto p-4 md:p-6 max-w-4xl">\n\n        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center">\n            <h3 class="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4">How to implement a singleton in C#?</h3>\n        </div>\n\n        <div class="border-b border-gray-300 pb-2 mb-6 text-sm text-gray-500">\n            <span>Asked <strong>10 years, 6 months ago</strong></span>\n            <span class="mx-2">|</span>\n            <span>Modified <strong>1 month ago</strong></span>\n            <span class="mx-2">|</span>\n            <span>Viewed <strong>1.2m times</strong></span>\n        </div>\n\n        <div class="question-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">1567</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <p class="text-gray-800 text-base leading-relaxed">\n                    How do I implement the singleton pattern in C#? I want to put my constants and some basic functions in it as I use those everywhere in my project. I want to have them \'Global\' and not need to manually bind them every object I create.\n                </p><br>\n                <div class="mt-4 flex flex-wrap gap-2">\n                    <span class="tag">c#</span>\n                    <span class="tag">.net</span>\n                    <span class="tag">singleton</span>\n                </div>\n            </div>\n        </div>\n\n        <hr class="my-8 border-gray-300">\n\n        <div class="flex justify-between items-center mb-6">\n            <h4 class="text-xl sm:text-2xl font-semibold text-gray-800">2 Answers</h4>\n        </div>\n\n        <div class="answer-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">923</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <h4 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900">Answer A</h4>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    If you are just storing some global values and have some methods that don\'t need state, you don\'t need singleton. Just make the class and its properties/methods static.\n                </p>\n                <pre class="code-block"><code>public static class GlobalSomething\n{\n   public static int NumberOfSomething { get; set; }\n\n   public static string MangleString( string someValue )\n   {\n   }\n}</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    Singleton is most useful when you have a normal class with state, but you only want one of them. The links that others have provided should be useful in exploring the Singleton pattern.\n                </p>\n                <div class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md">\n                    <p class="text-sm text-gray-600">Answered by <strong>Answer A</strong></p>\n                </div>\n            </div>\n        </div>\n\n        <div class="answer-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">1876</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <h4 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900">Answer B</h4>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    Here\'s a straightforward way to implement a singleton in C# for your constants and utility functions. Use a static class if you just need global access without instance management, but since you asked for a singleton, here’s the pattern:\n                </p>\n                <pre class="code-block"><code>public sealed class MySingleton\n{\n    private static readonly Lazy&lt;MySingleton&gt; instance = new Lazy&lt;MySingleton&gt;(() => new MySingleton());\n    \n    // Private constructor to prevent instantiation\n    private MySingleton() { }\n\n    // Public accessor for the singleton instance\n    public static MySingleton Instance => instance.Value;\n\n    // Your constants and methods\n    public const int MyConstant = 42;\n    public string SomeGlobalSetting { get; } = "Default";\n\n    public void DoSomethingUseful()\n    {\n        // Your logic here\n        Console.WriteLine("Doing stuff globally!");\n    }\n}</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    Use it like this: <code>MySingleton.Instance.DoSomethingUseful()</code> or <code>MySingleton.Instance.MyConstant</code>. The <code>Lazy&lt;T&gt;</code> ensures thread-safe, lazy initialization without locking overhead. If you don’t need instance semantics, a static class might be simpler: <code>public static class Globals { public const int MyConstant = 42; }</code>. Avoid singletons if you’re worried about testability or tight coupling—dependency injection might be better for that. Pick what fits your project.\n                </p>\n                <div class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md">\n                    <p class="text-sm text-gray-600">Answered by <strong>Answer B</strong></p>\n                </div>\n            </div>\n        </div>\n\n    </div>\n\n</body>\n</html>',
+        },
+        {
+          type: "radiogroup",
+          name: "question5",
+          title: "Answer A is accurate and technically sound.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question7",
+          title: "Answer A is clear and easy to understand.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question8",
+          title: "Answer A directly addresses the question.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question9",
+          title: "Answer B is accurate and technically sound.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question10",
+          title: "Answer B is clear and easy to understand.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question11",
+          title: "Answer B directly addresses the question.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "boolean",
+          name: "question12",
+          title: "Which answer would you accept?",
+          isRequired: true,
+          labelTrue: "B",
+          labelFalse: "A",
+        },
+        {
+          type: "checkbox",
+          name: "question13",
+          visibleIf: "{question12} notempty",
           title:
             "Why did you choose your preferred answer? (Select all that apply)",
           isRequired: true,
