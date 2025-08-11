@@ -2,7 +2,7 @@ export const json = {
   title:
     "Developer Preferences in AI vs. Community Q&A: Comparing Grok and Stack Overflow Responses",
   description:
-    "This survey is part of a research study comparing developer preferences between AI coding assistants (like Grok) and community Q&A platforms (like Stack Overflow). All responses are anonymous and used solely for academic research.",
+    "This survey is part of a research study comparing developer preferences between AI coding assistants (like Grok) and community Q&A platforms (like Stack Overflow). All responses are anonymous and used solely for academic research. For an optimal experience, we recommend using a computer or holding your phone in horizontal orientation.\r\n\r\n",
   completedHtml:
     "<h3>Thank you for your time!</h3><p>We appreciate you considering our survey. If you chose not to participate, your responses have not been recorded.</p>",
   pages: [
