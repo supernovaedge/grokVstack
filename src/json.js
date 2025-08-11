@@ -288,7 +288,7 @@ export const json = {
           choices: [
             {
               value: "grok",
-              text: "Grok",
+              text: "AI Tools",
             },
             {
               value: "stackoverflow",
@@ -313,7 +313,7 @@ export const json = {
           choices: [
             {
               value: "grok",
-              text: "Grok",
+              text: "AI Tools",
             },
             {
               value: "stackoverflow",
@@ -338,7 +338,7 @@ export const json = {
           choices: [
             {
               value: "grok",
-              text: "Grok",
+              text: "AI Tools",
             },
             {
               value: "stackoverflow",
@@ -363,7 +363,7 @@ export const json = {
           choices: [
             {
               value: "grok",
-              text: "Grok",
+              text: "AI Tools",
             },
             {
               value: "stackoverflow",
@@ -387,7 +387,7 @@ export const json = {
           choices: [
             {
               value: "grok",
-              text: "Grok",
+              text: "AI Tools",
             },
             {
               value: "stackoverflow",
@@ -647,7 +647,7 @@ export const json = {
         {
           type: "html",
           name: "question4",
-          html: '<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>How to implement a singleton in C#? - Stack Overflow</title>\n    <script src="https://cdn.tailwindcss.com"></script>\n    <link rel="preconnect" href="https://fonts.googleapis.com">\n    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">\n    <style>\n        body {\n            font-family: \'Inter\', sans-serif;\n            background-color: #F1F2F3;\n        }\n        .tag {\n            display: inline-block;\n            background-color: #e1ecf4;\n            color: #39739d;\n            padding: 4px 8px;\n            margin: 2px;\n            font-size: 13px;\n            border: 1px solid #39739d;\n            border-radius: 3px;\n            font-family: Arial, sans-serif;\n            text-decoration: none;\n        }\n        .tag:hover {\n            background-color: #d0e3f1;\n            cursor: pointer;\n        }\n        .code-block {\n            background-color: #F8F9F9;\n            border: 1px solid #E3E6E8;\n            border-radius: 6px;\n            padding: 12px;\n            font-family: \'Courier New\', Courier, monospace;\n            white-space: pre-wrap;\n            word-wrap: break-word;\n        }\n        .vote-control {\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            color: #BABFC4;\n            width: 48px;\n            flex-shrink: 0;\n        }\n        .vote-arrow {\n            cursor: pointer;\n            padding: 4px;\n        }\n        .vote-arrow:hover {\n            color: #83888D;\n        }\n        .vote-count {\n            font-size: 1.25rem;\n            color: #6A737C;\n            margin: 4px 0;\n        }\n        .question-section, .answer-section {\n            display: flex;\n            align-items: flex-start;\n            gap: 20px;\n            margin-bottom: 24px;\n        }\n        .answer-section {\n            background-color: white;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 2px 4px rgba(0,0,0,0.05);\n            margin-bottom: 32px;\n        }\n        .question-section > div.w-full,\n        .answer-section > div.w-full {\n            flex-grow: 1;\n        }\n    </style>\n</head>\n<body class="bg-gray-100">\n\n    <div class="container mx-auto p-4 md:p-6 max-w-4xl">\n\n        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center">\n            <h3 class="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4">How to implement a singleton in C#?</h3>\n        </div>\n\n        <div class="border-b border-gray-300 pb-2 mb-6 text-sm text-gray-500">\n            <span>Asked <strong>10 years, 6 months ago</strong></span>\n            <span class="mx-2">|</span>\n            <span>Modified <strong>1 month ago</strong></span>\n            <span class="mx-2">|</span>\n            <span>Viewed <strong>1.2m times</strong></span>\n        </div>\n\n        <div class="question-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">1567</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <p class="text-gray-800 text-base leading-relaxed">\n                    How do I implement the singleton pattern in C#? I want to put my constants and some basic functions in it as I use those everywhere in my project. I want to have them \'Global\' and not need to manually bind them every object I create.\n                </p><br>\n                <div class="mt-4 flex flex-wrap gap-2">\n                    <span class="tag">c#</span>\n                    <span class="tag">.net</span>\n                    <span class="tag">singleton</span>\n                </div>\n            </div>\n        </div>\n\n        <hr class="my-8 border-gray-300">\n\n        <div class="flex justify-between items-center mb-6">\n            <h4 class="text-xl sm:text-2xl font-semibold text-gray-800">2 Answers</h4>\n        </div>\n\n        <div class="answer-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">923</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <h4 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900">Answer A</h4>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    If you are just storing some global values and have some methods that don\'t need state, you don\'t need singleton. Just make the class and its properties/methods static.\n                </p>\n                <pre class="code-block"><code>public static class GlobalSomething\n{\n   public static int NumberOfSomething { get; set; }\n\n   public static string MangleString( string someValue )\n   {\n   }\n}</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    Singleton is most useful when you have a normal class with state, but you only want one of them. The links that others have provided should be useful in exploring the Singleton pattern.\n                </p>\n                <div class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md">\n                    <p class="text-sm text-gray-600">Answered by <strong>Answer A</strong></p>\n                </div>\n            </div>\n        </div>\n\n        <div class="answer-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">1876</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <h4 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900">Answer B</h4>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    Here\'s a straightforward way to implement a singleton in C# for your constants and utility functions. Use a static class if you just need global access without instance management, but since you asked for a singleton, here’s the pattern:\n                </p>\n                <pre class="code-block"><code>public sealed class MySingleton\n{\n    private static readonly Lazy&lt;MySingleton&gt; instance = new Lazy&lt;MySingleton&gt;(() => new MySingleton());\n    \n    // Private constructor to prevent instantiation\n    private MySingleton() { }\n\n    // Public accessor for the singleton instance\n    public static MySingleton Instance => instance.Value;\n\n    // Your constants and methods\n    public const int MyConstant = 42;\n    public string SomeGlobalSetting { get; } = "Default";\n\n    public void DoSomethingUseful()\n    {\n        // Your logic here\n        Console.WriteLine("Doing stuff globally!");\n    }\n}</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    Use it like this: <code>MySingleton.Instance.DoSomethingUseful()</code> or <code>MySingleton.Instance.MyConstant</code>. The <code>Lazy&lt;T&gt;</code> ensures thread-safe, lazy initialization without locking overhead. If you don’t need instance semantics, a static class might be simpler: <code>public static class Globals { public const int MyConstant = 42; }</code>. Avoid singletons if you’re worried about testability or tight coupling—dependency injection might be better for that. Pick what fits your project.\n                </p>\n                <div class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md">\n                    <p class="text-sm text-gray-600">Answered by <strong>Answer B</strong></p>\n                </div>\n            </div>\n        </div>\n\n    </div>\n\n</body>\n</html>',
+          html: '<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>How to implement a singleton in C#? - Stack Overflow</title>\n    <script src="https://cdn.tailwindcss.com"></script>\n    <link rel="preconnect" href="https://fonts.googleapis.com">\n    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">\n    <style>\n        body {\n            font-family: \'Inter\', sans-serif;\n            background-color: #F1F2F3;\n        }\n        .tag {\n            display: inline-block;\n            background-color: #e1ecf4;\n            color: #39739d;\n            padding: 4px 8px;\n            margin: 2px;\n            font-size: 13px;\n            border: 1px solid #39739d;\n            border-radius: 3px;\n            font-family: Arial, sans-serif;\n            text-decoration: none;\n        }\n        .tag:hover {\n            background-color: #d0e3f1;\n            cursor: pointer;\n        }\n        .code-block {\n            background-color: #F8F9F9;\n            border: 1px solid #E3E6E8;\n            border-radius: 6px;\n            padding: 12px;\n            font-family: \'Courier New\', Courier, monospace;\n            white-space: pre-wrap;\n            word-wrap: break-word;\n        }\n        .vote-control {\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            color: #BABFC4;\n            width: 48px;\n            flex-shrink: 0;\n        }\n        .vote-arrow {\n            cursor: pointer;\n            padding: 4px;\n        }\n        .vote-arrow:hover {\n            color: #83888D;\n        }\n        .vote-count {\n            font-size: 1.25rem;\n            color: #6A737C;\n            margin: 4px 0;\n        }\n        .question-section, .answer-section {\n            display: flex;\n            align-items: flex-start;\n            gap: 20px;\n            margin-bottom: 24px;\n        }\n        .answer-section {\n            background-color: white;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 2px 4px rgba(0,0,0,0.05);\n            margin-bottom: 32px;\n        }\n        .question-section > div.w-full,\n        .answer-section > div.w-full {\n            flex-grow: 1;\n        }\n    </style>\n</head>\n<body class="bg-gray-100">\n\n    <div class="container mx-auto p-4 md:p-6 max-w-4xl">\n\n        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center">\n            <h3 class="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4">How to implement a singleton in C#?</h3>\n        </div>\n\n        <div class="border-b border-gray-300 pb-2 mb-6 text-sm text-gray-500">\n            <span>Asked <strong>5 years, 6 months ago</strong></span>\n            <span class="mx-2">|</span>\n            <span>Modified <strong>1 month ago</strong></span>\n            <span class="mx-2">|</span>\n            <span>Viewed <strong>1.2m times</strong></span>\n        </div>\n\n        <div class="question-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">1567</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <p class="text-gray-800 text-base leading-relaxed">\n                    How do I implement the singleton pattern in C#? I want to put my constants and some basic functions in it as I use those everywhere in my project. I want to have them \'Global\' and not need to manually bind them every object I create.\n                </p><br>\n                <div class="mt-4 flex flex-wrap gap-2">\n                    <span class="tag">c#</span>\n                    <span class="tag">.net</span>\n                    <span class="tag">singleton</span>\n                </div>\n            </div>\n        </div>\n\n        <hr class="my-8 border-gray-300">\n\n        <div class="flex justify-between items-center mb-6">\n            <h4 class="text-xl sm:text-2xl font-semibold text-gray-800">2 Answers</h4>\n        </div>\n\n        <div class="answer-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">923</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <h4 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900">Answer A</h4>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    If you are just storing some global values and have some methods that don\'t need state, you don\'t need singleton. Just make the class and its properties/methods static.\n                </p>\n                <pre class="code-block"><code>public static class GlobalSomething\n{\n   public static int NumberOfSomething { get; set; }\n\n   public static string MangleString( string someValue )\n   {\n   }\n}</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    Singleton is most useful when you have a normal class with state, but you only want one of them. The links that others have provided should be useful in exploring the Singleton pattern.\n                </p>\n                <div class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md">\n                    <p class="text-sm text-gray-600">Answered by <strong>Answer A</strong></p>\n                </div>\n            </div>\n        </div>\n\n        <div class="answer-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">1876</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <h4 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900">Answer B</h4>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    Here\'s a straightforward way to implement a singleton in C# for your constants and utility functions. Use a static class if you just need global access without instance management, but since you asked for a singleton, here’s the pattern:\n                </p>\n                <pre class="code-block"><code>public sealed class MySingleton\n{\n    private static readonly Lazy&lt;MySingleton&gt; instance = new Lazy&lt;MySingleton&gt;(() => new MySingleton());\n    \n    // Private constructor to prevent instantiation\n    private MySingleton() { }\n\n    // Public accessor for the singleton instance\n    public static MySingleton Instance => instance.Value;\n\n    // Your constants and methods\n    public const int MyConstant = 42;\n    public string SomeGlobalSetting { get; } = "Default";\n\n    public void DoSomethingUseful()\n    {\n        // Your logic here\n        Console.WriteLine("Doing stuff globally!");\n    }\n}</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    Use it like this: <code>MySingleton.Instance.DoSomethingUseful()</code> or <code>MySingleton.Instance.MyConstant</code>. The <code>Lazy&lt;T&gt;</code> ensures thread-safe, lazy initialization without locking overhead. If you don’t need instance semantics, a static class might be simpler: <code>public static class Globals { public const int MyConstant = 42; }</code>. Avoid singletons if you’re worried about testability or tight coupling—dependency injection might be better for that. Pick what fits your project.\n                </p>\n                <div class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md">\n                    <p class="text-sm text-gray-600">Answered by <strong>Answer B</strong></p>\n                </div>\n            </div>\n        </div>\n\n    </div>\n\n</body>\n</html>',
         },
         {
           type: "radiogroup",
@@ -829,6 +829,675 @@ export const json = {
           type: "checkbox",
           name: "question13",
           visibleIf: "{question12} notempty",
+          title:
+            "Why did you choose your preferred answer? (Select all that apply)",
+          isRequired: true,
+          choices: [
+            {
+              value: "brevity",
+              text: "It was shorter and more concise",
+            },
+            {
+              value: "completeness",
+              text: "It provided more comprehensive information",
+            },
+            {
+              value: "clarity",
+              text: "It was clearer and easier to understand",
+            },
+            {
+              value: "accuracy",
+              text: "It seemed more accurate or reliable",
+            },
+            {
+              value: "multiple_methods",
+              text: "It offered multiple solutions",
+            },
+            {
+              value: "practicality",
+              text: "It was more practical for my needs",
+            },
+          ],
+          showOtherItem: true,
+          otherText: "Other (please specify)",
+        },
+      ],
+    },
+    {
+      name: "page3",
+      visibleIf: "{agreeToParticipate} = 'yes'",
+      elements: [
+        {
+          type: "html",
+          name: "question14",
+          html: '<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Convert XML to JSON using xmltodict package - Stack Overflow</title>\n    <script src="https://cdn.tailwindcss.com"></script>\n    <link rel="preconnect" href="https://fonts.googleapis.com">\n    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">\n    <style>\n        body {\n            font-family: \'Inter\', sans-serif;\n            background-color: #F1F2F3;\n        }\n        .tag {\n            display: inline-block;\n            background-color: #e1ecf4;\n            color: #39739d;\n            padding: 4px 8px;\n            margin: 2px;\n            font-size: 13px;\n            border: 1px solid #39739d;\n            border-radius: 3px;\n            font-family: Arial, sans-serif;\n            text-decoration: none;\n        }\n        .tag:hover {\n            background-color: #d0e3f1;\n            cursor: pointer;\n        }\n        .code-block {\n            background-color: #F8F9F9;\n            border: 1px solid #E3E6E8;\n            border-radius: 6px;\n            padding: 12px;\n            font-family: \'Courier New\', Courier, monospace;\n            white-space: pre-wrap;\n            word-wrap: break-word;\n        }\n        .vote-control {\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            color: #BABFC4;\n            width: 48px;\n            flex-shrink: 0;\n        }\n        .vote-arrow {\n            cursor: pointer;\n            padding: 4px;\n        }\n        .vote-arrow:hover {\n            color: #83888D;\n        }\n        .vote-count {\n            font-size: 1.25rem;\n            color: #6A737C;\n            margin: 4px 0;\n        }\n        .question-section, .answer-section {\n            display: flex;\n            align-items: flex-start;\n            gap: 20px;\n            margin-bottom: 24px;\n        }\n        .answer-section {\n            background-color: white;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 2px 4px rgba(0,0,0,0.05);\n            margin-bottom: 32px;\n        }\n        .question-section > div.w-full,\n        .answer-section > div.w-full {\n            flex-grow: 1;\n        }\n    </style>\n</head>\n<body class="bg-gray-100">\n    <div class="container mx-auto p-4 md:p-6 max-w-4xl">\n        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center">\n            <h3 class="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4">Convert XML to JSON using xmltodict package</h3>\n        </div>\n        <div class="border-b border-gray-300 pb-2 mb-6 text-sm text-gray-500">\n            <span>Asked <strong>3 months ago</strong></span>\n            <span class="mx-2">|</span>\n            <span>Modified <strong>1 day ago</strong></span>\n            <span class="mx-2">|</span>\n            <span>Viewed <strong>1.2k times</strong></span>\n        </div>\n        <div class="question-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">42</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n            <div class="w-full">\n                <p class="text-gray-800 text-base leading-relaxed">\n                    I\'m trying to convert the below XML file to JSON using xmltodict package but getting Expat syntax error\n                </p>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    <strong>abc.xml:</strong>\n                </p>\n                <pre class="code-block"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;\n&lt;testsuites tests="1" failures="0" disabled="0" errors="0" time="0.213" timestamp="2025-06-22T17:35:10.404" name="AllTests"&gt;\n    &lt;testsuite name="qw" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.213" timestamp="2025-06-22T17:35:10.404"&gt;\n        &lt;testcase name="er" file="" line="" status="run" result="PASSED" time="0.0" timestamp="2025-06-22T17:35:10.404" classname="qw" /&gt;\n    &lt;/testsuite&gt;\n&lt;/testsuites&gt;</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    <strong>main.py:</strong>\n                </p>\n                <pre class="code-block"><code>import xmltodict, json\n\ndef main():\n    o = xmltodict.parse("abc.xml")\n    json.dumps(o)\n\nif __name__ == "__main__":\n    main()</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    <strong>Error:</strong>\n                </p>\n                <pre class="code-block"><code>Traceback (most recent call last):\n  File "/home/harry/xml_to_json/main.py", line 9, in &lt;module&gt;\n    main()\n  File "/home/harry/xml_to_json/main.py", line 5, in main\n    o = xmltodict.parse("abc.xml")\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/harry/xml_to_json/.venv/lib/python3.12/site-packages/xmltodict.py", line 359, in parse\n    parser.Parse(xml_input, True)\nxml.parsers.expat.ExpatError: syntax error: line 1, column 0</code></pre>\n                <div class="mt-4 flex flex-wrap gap-2">\n                    <span class="tag">python</span>\n                    <span class="tag">xml</span>\n                    <span class="tag">json</span>\n                    <span class="tag">xmltodict</span>\n                </div>\n            </div>\n        </div>\n        <hr class="my-8 border-gray-300">\n        <div class="flex justify-between items-center mb-6">\n            <h4 class="text-xl sm:text-2xl font-semibold text-gray-800">2 Answers</h4>\n        </div>\n        <div class="answer-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">35</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n            <div class="w-full">\n                <h4 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900">Answer A</h4>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    You are passing path to the file ("abc.xml"), instead of actual content of the file, to the xmltodict.parse method. You need first to read the file:\n                </p>\n                <pre class="code-block"><code>with open("abc.xml", "r", encoding="UTF-8") as xml_file:\n    xml_content = xml_file.read()</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    then parse:\n                </p>\n                <pre class="code-block"><code>o = xmltodict.parse(xml_content)</code></pre>\n                <div class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md">\n                    <p class="text-sm text-gray-600">Answered by <strong>Answer A</strong></p>\n                </div>\n            </div>\n        </div>\n        <div class="answer-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">58</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n            <div class="w-full">\n                <h4 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900">Answer B</h4>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    The error occurs because xmltodict.parse() expects either an XML string or a file-like object, but you\'re passing a filename ("abc.xml") directly. To fix this, you need to read the XML file content first. Here\'s the corrected code:\n                </p>\n                <pre class="code-block"><code>import xmltodict\nimport json\n\ndef main():\n    # Read the XML file content\n    with open("abc.xml", "r") as file:\n        xml_content = file.read()\n    \n    # Parse XML to dict\n    o = xmltodict.parse(xml_content)\n    \n    # Convert dict to JSON\n    json_output = json.dumps(o, indent=2)\n    \n    # Print or save the JSON output\n    print(json_output)\n    \n    # Optionally, save to a file\n    with open("output.json", "w") as json_file:\n        json_file.write(json_output)\n\nif __name__ == "__main__":\n    main()</code></pre>\n                <div class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md">\n                    <p class="text-sm text-gray-600">Answered by <strong>Answer B</strong></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</body>\n</html>',
+        },
+        {
+          type: "radiogroup",
+          name: "question15",
+          title: "Answer A is accurate and technically sound.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question16",
+          title: "Answer A is clear and easy to understand.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question17",
+          title: "Answer A directly addresses the question.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question18",
+          title: "Answer B is accurate and technically sound.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question19",
+          title: "Answer B is clear and easy to understand.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question20",
+          title: "Answer B directly addresses the question.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "boolean",
+          name: "question21",
+          title: "Which answer would you accept?",
+          isRequired: true,
+          labelTrue: "B",
+          labelFalse: "A",
+        },
+        {
+          type: "checkbox",
+          name: "question22",
+          visibleIf: "{question21} notempty",
+          title:
+            "Why did you choose your preferred answer? (Select all that apply)",
+          isRequired: true,
+          choices: [
+            {
+              value: "brevity",
+              text: "It was shorter and more concise",
+            },
+            {
+              value: "completeness",
+              text: "It provided more comprehensive information",
+            },
+            {
+              value: "clarity",
+              text: "It was clearer and easier to understand",
+            },
+            {
+              value: "accuracy",
+              text: "It seemed more accurate or reliable",
+            },
+            {
+              value: "multiple_methods",
+              text: "It offered multiple solutions",
+            },
+            {
+              value: "practicality",
+              text: "It was more practical for my needs",
+            },
+          ],
+          showOtherItem: true,
+          otherText: "Other (please specify)",
+        },
+      ],
+    },
+    {
+      name: "page4",
+      visibleIf: "{agreeToParticipate} = 'yes'",
+      elements: [
+        {
+          type: "html",
+          name: "question23",
+          html: '<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Can we do an assignment operation in the true/false part of IIF in VB.net? - Stack Overflow</title>\n    <script src="https://cdn.tailwindcss.com"></script>\n    <link rel="preconnect" href="https://fonts.googleapis.com">\n    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">\n    <style>\n        body {\n            font-family: \'Inter\', sans-serif;\n            background-color: #F1F2F3;\n        }\n        .tag {\n            display: inline-block;\n            background-color: #e1ecf4;\n            color: #39739d;\n            padding: 4px 8px;\n            margin: 2px;\n            font-size: 13px;\n            border: 1px solid #39739d;\n            border-radius: 3px;\n            font-family: Arial, sans-serif;\n            text-decoration: none;\n        }\n        .tag:hover {\n            background-color: #d0e3f1;\n            cursor: pointer;\n        }\n        .code-block {\n            background-color: #F8F9F9;\n            border: 1px solid #E3E6E8;\n            border-radius: 6px;\n            padding: 12px;\n            font-family: \'Courier New\', Courier, monospace;\n            white-space: pre-wrap;\n            word-wrap: break-word;\n        }\n        .vote-control {\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            color: #BABFC4;\n            width: 48px;\n            flex-shrink: 0;\n        }\n        .vote-arrow {\n            cursor: pointer;\n            padding: 4px;\n        }\n        .vote-arrow:hover {\n            color: #83888D;\n        }\n        .vote-count {\n            font-size: 1.25rem;\n            color: #6A737C;\n            margin: 4px 0;\n        }\n        .question-section, .answer-section {\n            display: flex;\n            align-items: flex-start;\n            gap: 20px;\n            margin-bottom: 24px;\n        }\n        .answer-section {\n            background-color: white;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 2px 4px rgba(0,0,0,0.05);\n            margin-bottom: 32px;\n        }\n        .question-section > div.w-full,\n        .answer-section > div.w-full {\n            flex-grow: 1;\n        }\n    </style>\n</head>\n<body class="bg-gray-100">\n\n    <div class="container mx-auto p-4 md:p-6 max-w-4xl">\n\n        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center">\n            <h3 class="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4">Can we do an assignment operation in the true/false part of IIF in VB.net?</h3>\n        </div>\n\n        <div class="border-b border-gray-300 pb-2 mb-6 text-sm text-gray-500">\n            <span>Asked <strong>1 years, 1 months ago</strong></span>\n            <span class="mx-2">|</span>\n            <span>Modified <strong>3 days ago</strong></span>\n            <span class="mx-2">|</span>\n            <span>Viewed <strong>1.2k times</strong></span>\n        </div>\n\n        <div class="question-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">127</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <p class="text-gray-800 text-base leading-relaxed">\n                    Can we do an assignment operation in either true or false parts of the IIF function of VB.net?\n                </p>\n                <pre class="code-block"><code>Public Sub Main(args() As String)\n    Dim score As Integer = 0\n    Dim scoreString As String = ""\n    \n    IIf(score = 0, (score = score + 1), (score = score + 2))\n    \n    scoreString = score.ToString()\n    \n    Console.WriteLine("ScoreString : " + scoreString)\nEnd Sub</code></pre>\n                <div class="mt-4 flex flex-wrap gap-2">\n                    <span class="tag">vb.net</span>\n                    <span class="tag">iif</span>\n                </div>\n            </div>\n        </div>\n\n        <hr class="my-8 border-gray-300">\n\n        <div class="flex justify-between items-center mb-6">\n            <h4 class="text-xl sm:text-2xl font-semibold text-gray-800">2 Answers</h4>\n        </div>\n\n        <div class="answer-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">89</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <h4 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900">Answer A</h4>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    <code>IIf</code> returns a value, either the true or the false condition. So this is what you actually need:\n                </p>\n                <pre class="code-block"><code>score = IIf(score = 0, score + 1, score + 2)</code></pre>\n                <div class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md">\n                    <p class="text-sm text-gray-600">Answered by <strong>Answer A</strong></p>\n                </div>\n            </div>\n        </div>\n\n        <div class="answer-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">142</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n\n            <div class="w-full">\n                <h4 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900">Answer B</h4>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    In VB.NET, the IIf function cannot directly perform assignment operations within its true or false parts because IIf is a function that evaluates and returns a value, not a statement that can execute assignments. The syntax you provided attempts to perform assignments (score = score + 1) and (score = score + 2) inside the IIf function, which is invalid and will result in a compilation error.\n                </p>\n                <p class="text-base font-bold mt-6 mb-2 text-gray-800">Explanation</p>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    The IIf function in VB.NET has the syntax: <code>IIf(condition, truePart, falsePart)</code>. It evaluates the condition and returns either the truePart or falsePart value. It does not execute statements like assignments. Assignments (e.g., <code>score = score + 1</code>) are statements, not expressions that produce a value, so they cannot be used directly in IIf. To achieve the desired effect, you need to perform the assignment outside the IIf function or use a regular If statement.\n                </p>\n                <p class="text-base font-bold mt-6 mb-2 text-gray-800">Corrected Code</p>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">Here are two ways to achieve what you want:</p>\n                <p class="text-base font-bold mt-6 mb-2 text-gray-800">Option 1: Using a Regular If Statement</p>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">This is the most straightforward approach, as it allows assignments within the If block:</p>\n                <pre class="code-block"><code>Public Sub Main(args() As String)\n    Dim score As Integer = 0\n    Dim scoreString As String = ""\n\n    If score = 0 Then\n        score = score + 1\n    Else\n        score = score + 2\n    End If\n\n    scoreString = score.ToString()\n    Console.WriteLine("ScoreString : " + scoreString)\nEnd Sub</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">Output: <code>ScoreString : 1</code></p>\n                <p class="text-base font-bold mt-6 mb-2 text-gray-800">Option 2: Using IIf to Return a Value</p>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">If you want to use IIf, you can compute the value to assign to score and perform the assignment outside the IIf:</p>\n                <pre class="code-block"><code>Public Sub Main(args() As String)\n    Dim score As Integer = 0\n    Dim scoreString As String = ""\n\n    score = IIf(score = 0, score + 1, score + 2)\n    scoreString = score.ToString()\n    Console.WriteLine("ScoreString : " + scoreString)\nEnd Sub</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">Output: <code>ScoreString : 1</code></p>\n                <div class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md">\n                    <p class="text-sm text-gray-600">Answered by <strong>Answer B</strong></p>\n                </div>\n            </div>\n        </div>\n\n    </div>\n\n</body>\n</html>',
+        },
+        {
+          type: "radiogroup",
+          name: "question24",
+          title: "Answer A is accurate and technically sound.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question25",
+          title: "Answer A is clear and easy to understand.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question26",
+          title: "Answer A directly addresses the question.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question27",
+          title: "Answer B is accurate and technically sound.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question28",
+          title: "Answer B is clear and easy to understand.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question29",
+          title: "Answer B directly addresses the question.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "boolean",
+          name: "question30",
+          title: "Which answer would you accept?",
+          isRequired: true,
+          labelTrue: "B",
+          labelFalse: "A",
+        },
+        {
+          type: "checkbox",
+          name: "question31",
+          visibleIf: "{question30} notempty",
+          title:
+            "Why did you choose your preferred answer? (Select all that apply)",
+          isRequired: true,
+          choices: [
+            {
+              value: "brevity",
+              text: "It was shorter and more concise",
+            },
+            {
+              value: "completeness",
+              text: "It provided more comprehensive information",
+            },
+            {
+              value: "clarity",
+              text: "It was clearer and easier to understand",
+            },
+            {
+              value: "accuracy",
+              text: "It seemed more accurate or reliable",
+            },
+            {
+              value: "multiple_methods",
+              text: "It offered multiple solutions",
+            },
+            {
+              value: "practicality",
+              text: "It was more practical for my needs",
+            },
+          ],
+          showOtherItem: true,
+          otherText: "Other (please specify)",
+        },
+      ],
+    },
+    {
+      name: "page5",
+      visibleIf: "{agreeToParticipate} = 'yes'",
+      elements: [
+        {
+          type: "html",
+          name: "question32",
+          html: '<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Convert XML to JSON using xmltodict package - Stack Overflow</title>\n    <script src="https://cdn.tailwindcss.com"></script>\n    <link rel="preconnect" href="https://fonts.googleapis.com">\n    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">\n    <style>\n        body {\n            font-family: \'Inter\', sans-serif;\n            background-color: #F1F2F3;\n        }\n        .tag {\n            display: inline-block;\n            background-color: #e1ecf4;\n            color: #39739d;\n            padding: 4px 8px;\n            margin: 2px;\n            font-size: 13px;\n            border: 1px solid #39739d;\n            border-radius: 3px;\n            font-family: Arial, sans-serif;\n            text-decoration: none;\n        }\n        .tag:hover {\n            background-color: #d0e3f1;\n            cursor: pointer;\n        }\n        .code-block {\n            background-color: #F8F9F9;\n            border: 1px solid #E3E6E8;\n            border-radius: 6px;\n            padding: 12px;\n            font-family: \'Courier New\', Courier, monospace;\n            white-space: pre-wrap;\n            word-wrap: break-word;\n        }\n        .vote-control {\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            color: #BABFC4;\n            width: 48px;\n            flex-shrink: 0;\n        }\n        .vote-arrow {\n            cursor: pointer;\n            padding: 4px;\n        }\n        .vote-arrow:hover {\n            color: #83888D;\n        }\n        .vote-count {\n            font-size: 1.25rem;\n            color: #6A737C;\n            margin: 4px 0;\n        }\n        .question-section, .answer-section {\n            display: flex;\n            align-items: flex-start;\n            gap: 20px;\n            margin-bottom: 24px;\n        }\n        .answer-section {\n            background-color: white;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 2px 4px rgba(0,0,0,0.05);\n            margin-bottom: 32px;\n        }\n        .question-section > div.w-full,\n        .answer-section > div.w-full {\n            flex-grow: 1;\n        }\n    </style>\n</head>\n<body class="bg-gray-100">\n    <div class="container mx-auto p-4 md:p-6 max-w-4xl">\n        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center">\n            <h3 class="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4">Convert XML to JSON using xmltodict package</h3>\n        </div>\n        <div class="border-b border-gray-300 pb-2 mb-6 text-sm text-gray-500">\n            <span>Asked <strong>2 months ago</strong></span>\n            <span class="mx-2">|</span>\n            <span>Modified <strong>1 day ago</strong></span>\n            <span class="mx-2">|</span>\n            <span>Viewed <strong>1.2k times</strong></span>\n        </div>\n        <div class="question-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">42</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n            <div class="w-full">\n                <p class="text-gray-800 text-base leading-relaxed">\n                    I\'m trying to convert the below XML file to JSON using xmltodict package but getting Expat syntax error\n                </p>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    <strong>abc.xml:</strong>\n                </p>\n                <pre class="code-block"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;\n&lt;testsuites tests="1" failures="0" disabled="0" errors="0" time="0.213" timestamp="2025-06-22T17:35:10.404" name="AllTests"&gt;\n    &lt;testsuite name="qw" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.213" timestamp="2025-06-22T17:35:10.404"&gt;\n        &lt;testcase name="er" file="" line="" status="run" result="PASSED" time="0.0" timestamp="2025-06-22T17:35:10.404" classname="qw" /&gt;\n    &lt;/testsuite&gt;\n&lt;/testsuites&gt;</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    <strong>main.py:</strong>\n                </p>\n                <pre class="code-block"><code>import xmltodict, json\n\ndef main():\n    o = xmltodict.parse("abc.xml")\n    json.dumps(o)\n\nif __name__ == "__main__":\n    main()</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    <strong>Error:</strong>\n                </p>\n                <pre class="code-block"><code>Traceback (most recent call last):\n  File "/home/harry/xml_to_json/main.py", line 9, in <module>\n    main()\n  File "/home/harry/xml_to_json/main.py", line 5, in main\n    o = xmltodict.parse("abc.xml")\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/harry/xml_to_json/.venv/lib/python3.12/site-packages/xmltodict.py", line 359, in parse\n    parser.Parse(xml_input, True)\nxml.parsers.expat.ExpatError: syntax error: line 1, column 0</code></pre>\n                <div class="mt-4 flex flex-wrap gap-2">\n                    <span class="tag">python</span>\n                    <span class="tag">xml</span>\n                    <span class="tag">json</span>\n                    <span class="tag">xmltodict</span>\n                </div>\n            </div>\n        </div>\n        <hr class="my-8 border-gray-300">\n        <div class="flex justify-between items-center mb-6">\n            <h4 class="text-xl sm:text-2xl font-semibold text-gray-800">2 Answers</h4>\n        </div>\n        <div class="answer-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">18</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n            <div class="w-full">\n                <h4 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900">Answer A</h4>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    You are passing path to the file ("abc.xml"), instead of actual content of the file, to the xmltodict.parse method. You need first to read the file:\n                </p>\n                <pre class="code-block"><code>with open("abc.xml", "r", encoding="UTF-8") as xml_file:\n    xml_content = xml_file.read()</code></pre>\n                <p class="text-gray-800 text-base leading-relaxed mt-4">\n                    then parse:\n                </p>\n                <pre class="code-block"><code>o = xmltodict.parse(xml_content)</code></pre>\n                <div class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md">\n                    <p class="text-sm text-gray-600">Answered by <strong>Answer A</strong></p>\n                </div>\n            </div>\n        </div>\n        <div class="answer-section">\n            <div class="vote-control">\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>\n                <span class="vote-count">35</span>\n                <svg class="vote-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="36"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>\n            </div>\n            <div class="w-full">\n                <h4 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900">Answer B</h4>\n                <p class="text-gray-800 text-base leading-relaxed mb-4">\n                    The error occurs because xmltodict.parse() expects either an XML string or a file-like object, but you\'re passing a filename ("abc.xml") directly. To fix this, you need to read the XML file content first. Here\'s the corrected code:\n                </p>\n                <pre class="code-block"><code>import xmltodict\nimport json\n\ndef main():\n    # Read the XML file content\n    with open("abc.xml", "r") as file:\n        xml_content = file.read()\n    \n    # Parse XML to dict\n    o = xmltodict.parse(xml_content)\n    \n    # Convert dict to JSON\n    json_output = json.dumps(o, indent=2)\n    \n    # Print or save the JSON output\n    print(json_output)\n    \n    # Optionally, save to a file\n    with open("output.json", "w") as json_file:\n        json_file.write(json_output)\n\nif __name__ == "__main__":\n    main()</code></pre>\n                <div class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md">\n                    <p class="text-sm text-gray-600">Answered by <strong>Answer B</strong></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</body>\n</html>',
+        },
+        {
+          type: "radiogroup",
+          name: "question33",
+          title: "Answer A is accurate and technically sound.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question34",
+          title: "Answer A is clear and easy to understand.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question35",
+          title: "Answer A directly addresses the question.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question36",
+          title: "Answer B is accurate and technically sound.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question37",
+          title: "Answer B is clear and easy to understand.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "radiogroup",
+          name: "question38",
+          title: "Answer B directly addresses the question.",
+          isRequired: true,
+          choices: [
+            {
+              value: "1",
+              text: "1 - Strongly Disagree",
+            },
+            {
+              value: "2",
+              text: "2 - Disagree",
+            },
+            {
+              value: "3",
+              text: "3 - Neutral",
+            },
+            {
+              value: "4",
+              text: "4 - Agree",
+            },
+            {
+              value: "5",
+              text: "5 - Strongly Agree",
+            },
+          ],
+        },
+        {
+          type: "boolean",
+          name: "question39",
+          title: "Which answer would you accept?",
+          isRequired: true,
+          labelTrue: "B",
+          labelFalse: "A",
+        },
+        {
+          type: "checkbox",
+          name: "question40",
+          visibleIf: "{question39} notempty",
           title:
             "Why did you choose your preferred answer? (Select all that apply)",
           isRequired: true,
