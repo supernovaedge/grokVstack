@@ -15,6 +15,8 @@ function SurveyComponent() {
       Object.entries(sender.data).forEach(([key, value]) => {
         formData.append(key, value);
       });
+      // Add the full survey data as a JSON string for Netlify's 'responses' column
+      formData.append("responses", JSON.stringify(sender.data));
       fetch("/", {
         method: "POST",
         body: formData,
