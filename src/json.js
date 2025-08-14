@@ -148,10 +148,13 @@ export const json = {
               text: "Java",
             },
             {
-              value: "csharp_cpp",
-              text: "C#/C++",
+              value: "csharp",
+              text: "C#",
             },
-            "Item 1",
+            {
+              value: "cpp",
+              text: "C++",
+            },
             {
               value: "php",
               text: "PHP",
