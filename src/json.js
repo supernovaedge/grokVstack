@@ -48,7 +48,7 @@ export const json = {
               text: "Student",
             },
             {
-              value: "junior ",
+              value: "junior",
               text: "Junior Developer (0–2 years)",
             },
             {
