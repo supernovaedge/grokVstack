@@ -1,0 +1,21 @@
+Work_Environment,Scenario,StackOverflow_Accuracy_Mean,StackOverflow_Clarity_Mean,StackOverflow_Directness_Mean,Grok_Accuracy_Mean,Grok_Clarity_Mean,Grok_Directness_Mean
+Academic/Research,Scenario 1,4.9,4.9,4.9,4.9,4.8,4.7
+Academic/Research,Scenario 2,4.4,4.4,4.3,4.9,4.8,5
+Academic/Research,Scenario 3,4.8,4.7,4.9,4.6,4.5,4.7
+Academic/Research,Scenario 4,4.9,4.9,4.9,4.9,4.8,4.9
+Academic/Research,Scenario 5,4.7,4.5,4.7,4.9,4.9,4.9
+Large Team (10+ developers),Scenario 1,4.529,4.412,4.647,4.471,4.471,4.353
+Large Team (10+ developers),Scenario 2,4.118,4.235,4,4.588,4.471,4.471
+Large Team (10+ developers),Scenario 3,4.529,4.588,4.471,4.529,4.471,4.294
+Large Team (10+ developers),Scenario 4,4.588,4.706,4.529,4.294,4.235,4.118
+Large Team (10+ developers),Scenario 5,4.294,4.118,4.176,4.412,4.294,4.412
+Small Team (<10 developers),Scenario 1,4.737,4.737,4.684,4.737,4.789,4.737
+Small Team (<10 developers),Scenario 2,3.947,4,4.105,4.789,4.789,4.632
+Small Team (<10 developers),Scenario 3,4.526,4.579,4.632,4.579,4.474,4.474
+Small Team (<10 developers),Scenario 4,4.789,4.789,4.789,4.737,4.632,4.632
+Small Team (<10 developers),Scenario 5,4.263,4.421,4.368,4.684,4.737,4.789
+Solo/Freelance,Scenario 1,4.5,4,4.5,3.75,4.25,3.75
+Solo/Freelance,Scenario 2,3.75,4.25,3.75,4.25,4,4.25
+Solo/Freelance,Scenario 3,4,4.5,4,4,3,4
+Solo/Freelance,Scenario 4,4,3.75,3.5,4.5,4.25,4.5
+Solo/Freelance,Scenario 5,3.75,4,3.75,3.75,4,3.75

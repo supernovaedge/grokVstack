@@ -1,0 +1,71 @@
+Scenario,Demographic_Category,Demographic_Value,Total_Responses,Stack_Overflow_Count,Grok_Count,Stack_Overflow_Percentage,Grok_Percentage
+Scenario 1,Role,Junior Developer (0-2 years),17,9,8,52.94,47.06
+Scenario 1,Role,Mid-Level Developer (3-5 years),13,6,7,46.15,53.85
+Scenario 1,Role,"Other (e.g., hobbyist, manager)",3,1,2,33.33,66.67
+Scenario 1,Role,Senior Developer (6+ years),7,2,5,28.57,71.43
+Scenario 1,Role,Student,10,6,4,60,40
+Scenario 1,Work_Environment,Academic/Research,10,5,5,50,50
+Scenario 1,Work_Environment,Large Team (10+ developers),17,8,9,47.06,52.94
+Scenario 1,Work_Environment,Small Team (<10 developers),19,8,11,42.11,57.89
+Scenario 1,Work_Environment,Solo/Freelance,4,3,1,75,25
+Scenario 1,Years_of_Experience,1-2 years,18,10,8,55.56,44.44
+Scenario 1,Years_of_Experience,3-5 years,17,7,10,41.18,58.82
+Scenario 1,Years_of_Experience,6-10 years,4,2,2,50,50
+Scenario 1,Years_of_Experience,Less than 1 year,9,5,4,55.56,44.44
+Scenario 1,Years_of_Experience,More than 10 years,2,0,2,0,100
+Scenario 2,Role,Junior Developer (0-2 years),17,5,12,29.41,70.59
+Scenario 2,Role,Mid-Level Developer (3-5 years),13,2,11,15.38,84.62
+Scenario 2,Role,"Other (e.g., hobbyist, manager)",3,1,2,33.33,66.67
+Scenario 2,Role,Senior Developer (6+ years),7,1,6,14.29,85.71
+Scenario 2,Role,Student,10,3,7,30,70
+Scenario 2,Work_Environment,Academic/Research,10,4,6,40,60
+Scenario 2,Work_Environment,Large Team (10+ developers),17,4,13,23.53,76.47
+Scenario 2,Work_Environment,Small Team (<10 developers),19,3,16,15.79,84.21
+Scenario 2,Work_Environment,Solo/Freelance,4,1,3,25,75
+Scenario 2,Years_of_Experience,1-2 years,18,5,13,27.78,72.22
+Scenario 2,Years_of_Experience,3-5 years,17,4,13,23.53,76.47
+Scenario 2,Years_of_Experience,6-10 years,4,1,3,25,75
+Scenario 2,Years_of_Experience,Less than 1 year,9,2,7,22.22,77.78
+Scenario 2,Years_of_Experience,More than 10 years,2,0,2,0,100
+Scenario 3,Role,Junior Developer (0-2 years),17,10,7,58.82,41.18
+Scenario 3,Role,Mid-Level Developer (3-5 years),13,2,11,15.38,84.62
+Scenario 3,Role,"Other (e.g., hobbyist, manager)",3,1,2,33.33,66.67
+Scenario 3,Role,Senior Developer (6+ years),7,6,1,85.71,14.29
+Scenario 3,Role,Student,10,7,3,70,30
+Scenario 3,Work_Environment,Academic/Research,10,7,3,70,30
+Scenario 3,Work_Environment,Large Team (10+ developers),17,8,9,47.06,52.94
+Scenario 3,Work_Environment,Small Team (<10 developers),19,10,9,52.63,47.37
+Scenario 3,Work_Environment,Solo/Freelance,4,1,3,25,75
+Scenario 3,Years_of_Experience,1-2 years,18,10,8,55.56,44.44
+Scenario 3,Years_of_Experience,3-5 years,17,5,12,29.41,70.59
+Scenario 3,Years_of_Experience,6-10 years,4,4,0,100,0
+Scenario 3,Years_of_Experience,Less than 1 year,9,6,3,66.67,33.33
+Scenario 3,Years_of_Experience,More than 10 years,2,1,1,50,50
+Scenario 4,Role,Junior Developer (0-2 years),17,13,4,76.47,23.53
+Scenario 4,Role,Mid-Level Developer (3-5 years),13,8,5,61.54,38.46
+Scenario 4,Role,"Other (e.g., hobbyist, manager)",3,2,1,66.67,33.33
+Scenario 4,Role,Senior Developer (6+ years),7,3,4,42.86,57.14
+Scenario 4,Role,Student,10,6,4,60,40
+Scenario 4,Work_Environment,Academic/Research,10,7,3,70,30
+Scenario 4,Work_Environment,Large Team (10+ developers),17,13,4,76.47,23.53
+Scenario 4,Work_Environment,Small Team (<10 developers),19,10,9,52.63,47.37
+Scenario 4,Work_Environment,Solo/Freelance,4,2,2,50,50
+Scenario 4,Years_of_Experience,1-2 years,18,12,6,66.67,33.33
+Scenario 4,Years_of_Experience,3-5 years,17,11,6,64.71,35.29
+Scenario 4,Years_of_Experience,6-10 years,4,3,1,75,25
+Scenario 4,Years_of_Experience,Less than 1 year,9,6,3,66.67,33.33
+Scenario 4,Years_of_Experience,More than 10 years,2,0,2,0,100
+Scenario 5,Role,Junior Developer (0-2 years),17,5,12,29.41,70.59
+Scenario 5,Role,Mid-Level Developer (3-5 years),13,3,10,23.08,76.92
+Scenario 5,Role,"Other (e.g., hobbyist, manager)",3,2,1,66.67,33.33
+Scenario 5,Role,Senior Developer (6+ years),7,2,5,28.57,71.43
+Scenario 5,Role,Student,10,2,8,20,80
+Scenario 5,Work_Environment,Academic/Research,10,3,7,30,70
+Scenario 5,Work_Environment,Large Team (10+ developers),17,4,13,23.53,76.47
+Scenario 5,Work_Environment,Small Team (<10 developers),19,5,14,26.32,73.68
+Scenario 5,Work_Environment,Solo/Freelance,4,2,2,50,50
+Scenario 5,Years_of_Experience,1-2 years,18,4,14,22.22,77.78
+Scenario 5,Years_of_Experience,3-5 years,17,4,13,23.53,76.47
+Scenario 5,Years_of_Experience,6-10 years,4,1,3,25,75
+Scenario 5,Years_of_Experience,Less than 1 year,9,4,5,44.44,55.56
+Scenario 5,Years_of_Experience,More than 10 years,2,1,1,50,50

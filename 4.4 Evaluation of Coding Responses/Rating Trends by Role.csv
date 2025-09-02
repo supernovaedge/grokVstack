@@ -1,0 +1,26 @@
+Role,Scenario,StackOverflow_Accuracy_Mean,StackOverflow_Clarity_Mean,StackOverflow_Directness_Mean,Grok_Accuracy_Mean,Grok_Clarity_Mean,Grok_Directness_Mean
+Junior Developer (0-2 years),Scenario 1,4.824,4.706,4.882,4.765,4.706,4.647
+Junior Developer (0-2 years),Scenario 2,4.235,4.176,4,4.647,4.588,4.588
+Junior Developer (0-2 years),Scenario 3,4.706,4.824,4.765,4.706,4.294,4.412
+Junior Developer (0-2 years),Scenario 4,4.882,4.824,4.824,4.765,4.471,4.471
+Junior Developer (0-2 years),Scenario 5,4.353,4.412,4.294,4.588,4.588,4.588
+Mid-Level Developer (3-5 years),Scenario 1,4.615,4.615,4.462,4.538,4.692,4.538
+Mid-Level Developer (3-5 years),Scenario 2,4.154,4.308,4.462,4.769,4.769,4.538
+Mid-Level Developer (3-5 years),Scenario 3,4.308,4.308,4.385,4.692,4.846,4.538
+Mid-Level Developer (3-5 years),Scenario 4,4.769,4.846,4.769,4.615,4.538,4.538
+Mid-Level Developer (3-5 years),Scenario 5,4.308,4.308,4.462,4.692,4.692,4.846
+"Other (e.g., hobbyist, manager)",Scenario 1,5,5,5,5,5,5
+"Other (e.g., hobbyist, manager)",Scenario 2,4.667,5,4.667,5,5,5
+"Other (e.g., hobbyist, manager)",Scenario 3,4.333,4.667,4.333,4.667,4.333,4.667
+"Other (e.g., hobbyist, manager)",Scenario 4,5,5,5,5,5,4.667
+"Other (e.g., hobbyist, manager)",Scenario 5,4.667,4.667,4.667,4.667,4.667,4.667
+Senior Developer (6+ years),Scenario 1,4.143,4,4.429,4.143,4.286,4.143
+Senior Developer (6+ years),Scenario 2,3.286,3.571,3.429,4.429,4.286,4.286
+Senior Developer (6+ years),Scenario 3,4.286,4.429,4.286,3.857,3.857,3.857
+Senior Developer (6+ years),Scenario 4,4,4.143,3.857,3.714,4,3.857
+Senior Developer (6+ years),Scenario 5,4,3.857,3.857,4,3.857,4
+Student,Scenario 1,4.8,4.7,4.8,4.6,4.6,4.4
+Student,Scenario 2,4.1,4.2,4,4.8,4.6,4.9
+Student,Scenario 3,4.8,4.7,4.8,4.4,4.2,4.6
+Student,Scenario 4,4.6,4.6,4.5,4.8,4.7,4.9
+Student,Scenario 5,4.4,4.3,4.4,4.7,4.8,4.7

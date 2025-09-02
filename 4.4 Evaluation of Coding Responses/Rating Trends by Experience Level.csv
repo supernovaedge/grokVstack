@@ -1,0 +1,26 @@
+Experience_Band,Scenario,StackOverflow_Accuracy_Mean,StackOverflow_Clarity_Mean,StackOverflow_Directness_Mean,Grok_Accuracy_Mean,Grok_Clarity_Mean,Grok_Directness_Mean
+1-2 years,Scenario 1,4.833,4.556,4.833,4.667,4.667,4.556
+1-2 years,Scenario 2,4.222,4.222,3.833,4.722,4.611,4.722
+1-2 years,Scenario 3,4.722,4.778,4.722,4.667,4.278,4.444
+1-2 years,Scenario 4,4.722,4.667,4.611,4.778,4.556,4.611
+1-2 years,Scenario 5,4.222,4.333,4.167,4.556,4.611,4.556
+10+ years,Scenario 1,4,4,4.5,4.5,4.5,4.5
+10+ years,Scenario 2,4.5,4.5,4,5,5,5
+10+ years,Scenario 3,5,5,5,5,5,5
+10+ years,Scenario 4,4.5,4.5,4.5,5,5,5
+10+ years,Scenario 5,4.5,4.5,4.5,5,4.5,5
+3-5 years,Scenario 1,4.706,4.706,4.588,4.647,4.765,4.647
+3-5 years,Scenario 2,4.118,4.235,4.412,4.824,4.824,4.647
+3-5 years,Scenario 3,4.235,4.294,4.294,4.588,4.647,4.471
+3-5 years,Scenario 4,4.706,4.765,4.706,4.647,4.588,4.529
+3-5 years,Scenario 5,4.294,4.353,4.353,4.706,4.706,4.824
+6-10 years,Scenario 1,4,3.75,4.25,3.75,4,3.75
+6-10 years,Scenario 2,3.25,3.75,3.5,4,3.75,3.75
+6-10 years,Scenario 3,4.25,4.5,4.25,3.5,3.5,3.5
+6-10 years,Scenario 4,4,4.25,3.75,3,3.5,3.25
+6-10 years,Scenario 5,3.75,3.5,3.75,3.5,3.5,3.5
+<1 year,Scenario 1,4.778,5,4.889,4.778,4.667,4.556
+<1 year,Scenario 2,4,4.111,4.222,4.667,4.556,4.667
+<1 year,Scenario 3,4.778,4.778,4.889,4.444,4.222,4.556
+<1 year,Scenario 4,4.889,4.889,4.889,4.778,4.556,4.667
+<1 year,Scenario 5,4.778,4.444,4.778,4.667,4.667,4.667

@@ -1,0 +1,4 @@
+Criterion,StackOverflow,Grok,Difference (S-G)
+Accuracy,4.46,4.596,0.136
+Clarity,4.476,4.536,0.06
+Directness,4.46,4.532,0.072
