@@ -1,32 +1,49 @@
-#grokVstack
-This repository supports the master’s thesis, “Developer Preferences in AI vs. Community Q&A: Comparing Grok and Stack Overflow Responses,” by providing survey code, raw data, and visuals.
-Repository Structure
+# grokVstack
 
-Master Branch: Contains json.js, the SurveyJS JSON configuration for the survey (consent, demographics, tool usage, scenario-based preferences, coding response evaluations). Load in a SurveyJS environment to run the survey.
-Main Branch:
+This repository supports the master’s thesis:  
+**“Developer Preferences in AI vs. Community Q&A: Comparing Grok and Stack Overflow Responses.”**  
 
-4.1 Demographic Characteristics: Excel file (survey_responses.xlsx) with raw data and statistics (e.g., roles, experience) and PNGs for charts (e.g., Figure 4.1).
-4.2 Tool Usage Patterns and Adoption: Excel file with data on Stack Overflow/AI tool usage and PNGs for charts.
-4.3 Scenario-Based Preferences: Excel file with preferences for AI vs. Stack Overflow across five scenarios and PNGs for charts.
-4.4 Evaluation of Coding Responses: Excel file with Likert-scale ratings and preferences for five scenarios and PNGs for charts.
-Scenario Based Questions: Five subfolders (compare1–compare5), each with:
+It provides the survey code, raw data, and visuals used in the study.  
 
-question.png: Scenario question (e.g., Python string reversal for compare1).
-answerA.png and answerB.png: Answer A and B visuals.
+---
 
+## 📂 Repository Structure
 
+### **Master Branch**
+- `json.js`: SurveyJS JSON configuration for the survey  
+  *(consent, demographics, tool usage, scenario-based preferences, coding response evaluations)*  
+- Load into a SurveyJS environment to run the survey.
 
+### **Main Branch**
+- **4.1 Demographic Characteristics**  
+  - `survey_responses.xlsx`: Raw data and statistics (roles, experience, etc.)  
+  - PNGs: Charts (e.g., Figure 4.1)  
 
+- **4.2 Tool Usage Patterns and Adoption**  
+  - Excel file: Data on Stack Overflow / AI tool usage  
+  - PNGs: Usage charts  
 
-Data Interpretation
+- **4.3 Scenario-Based Preferences**  
+  - Excel file: Preferences for AI vs. Stack Overflow across five scenarios  
+  - PNGs: Charts  
 
-Excel Files: Contain anonymized responses (50 respondents), means, standard deviations, p-values, and Spearman correlations. Variable names (e.g., compare1_answerA_accuracy) map to survey questions (1 = Strongly Disagree, 5 = Strongly Agree).
-PNGs: Visualize charts (e.g., bar charts, heatmaps) and scenario questions/answers referenced in Chapter 4.
-Ethical Note: All data are anonymized, with no personally identifiable information, per the thesis’s ethical guidelines.
+- **4.4 Evaluation of Coding Responses**  
+  - Excel file: Likert-scale ratings & preferences for five scenarios  
+  - PNGs: Charts  
 
-Access
+- **Scenario-Based Questions** *(folders `compare1` – `compare5`)*  
+  - `question.png`: Scenario question (e.g., Python string reversal in *compare1*)  
+  - `answerA.png` / `answerB.png`: Visuals of Answer A and B  
 
-Survey code: Master branch (json.js).
-Data and visuals: Main branch (chapter folders, Scenario Based Questions).
+---
 
-For details, see Appendix C of the thesis.
+## ⚖️ Ethical Note
+All data are anonymized with **no personally identifiable information**, in line with the thesis’s ethical guidelines.  
+
+---
+
+## 🔑 Access
+- **Survey Code:** Master branch (`json.js`)  
+- **Data & Visuals:** Main branch (chapter folders & scenario-based questions)  
+
+For further details, see **Appendix C** of the thesis.  
